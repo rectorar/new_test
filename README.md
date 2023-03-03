@@ -1,7 +1,6 @@
 ---
-output: 
-  github_document: 
-    keep_md: no
+output: rmarkdown::render("README.Rmd") 
+
 ---
 
 rmarkdown::render("README.md") 
