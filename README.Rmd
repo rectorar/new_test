@@ -1,10 +1,18 @@
 ---
 output: 
-  html_document: 
-    keep_md: yes
+  github_document: 
+    keep_md: no
 ---
+
+```{r}
+rmarkdown::render("README.Rmd") 
+```
+
 # new_test
 
 ###Some text!
 
 how will it render?
+
+
+
