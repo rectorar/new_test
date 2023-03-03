@@ -2,7 +2,9 @@
 output: rmarkdown::render("README.Rmd") 
 ---
 
+
 ```{r}
+library(rmarkdown)
 #I don't understand markdown and I am frightened
 ```
 
