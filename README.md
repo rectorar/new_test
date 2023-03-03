@@ -1,10 +1,8 @@
 
-``` r
-#I don't understand markdown and I am frightened
-```
+# Rendering .Rmd files as .md
 
-# new_test
+Include output: github_document in the header
 
-\###Some text!
+Include this to knit the file: knitr::opts_chunk\$set(echo = TRUE)
 
-\#how will it render?
+## Knit the file to render it and then push the .md file
