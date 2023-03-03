@@ -1,7 +1,7 @@
 ---
 output: 
-  html_document: 
-    keep_md: yes
+  github_document: 
+    keep_md: no
 ---
 
 rmarkdown::render("README.md") 
