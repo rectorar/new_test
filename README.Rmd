@@ -5,15 +5,13 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Rendering .Rmd files as .md
 
-```{r}
-#I don't understand markdown and I am frightened
-```
+Include output: github_document in the header
 
-# new_test
-###Some text!
+Include this to knit the file: knitr::opts_chunk$set(echo = TRUE)
 
-#how will it render?
+## Knit the file to render it and then push the .md file
 
 
 
