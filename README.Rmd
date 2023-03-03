@@ -1,11 +1,9 @@
 ---
-output: 
-  github_document: 
-    keep_md: no
+output: rmarkdown::render("README.Rmd") 
 ---
 
 ```{r}
-rmarkdown::render("README.Rmd") 
+#I don't understand markdown and I am frightened
 ```
 
 # new_test
