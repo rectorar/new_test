@@ -1,5 +1,5 @@
 ---
-output: rmarkdown::render("README.Rmd") 
+output: github_document 
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # new_test
 ###Some text!
 
-how will it render?
+#how will it render?
 
 
 
