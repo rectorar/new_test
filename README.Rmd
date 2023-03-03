@@ -7,7 +7,6 @@ output: rmarkdown::render("README.Rmd")
 ```
 
 # new_test
-
 ###Some text!
 
 how will it render?
